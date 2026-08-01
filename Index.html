@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haiko</title>
+<meta name="description" content="Example description.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&amp;family=Karla:wght@400;500;700&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+
+<!-- tokens must load before landing -->
+<link rel="stylesheet" href="./css/tokens.css?v=1">
+<link rel="stylesheet" href="./css/landing.css?v=1">
+</head>
+<body>
+
+<main class="shell">
+
+  <header class="intro">
+    <p class="eyebrow mono">Example label</p>
+    <h1>Example heading</h1>
+    <p>Example text. Pick a section below.</p>
+  </header>
+
+  <!-- Each card is a plain link. To add one, copy a list item and change
+       the href, the name, and the tint custom property. Tints are defined
+       in css/tokens.css. -->
+  <ul class="cats">
+
+    <li><a class="cat" href="https://resume.haiko.be" style="--tint:var(--antacid)">
+      <span class="cat-index mono">01</span>
+      <span class="cat-name">Resume</span>
+      <p class="cat-desc">Example text describing this section.</p>
+      <span class="cat-go mono">Open <span aria-hidden="true">&rarr;</span></span>
+    </a></li>
+
+    <li><div class="cat soon" style="--tint:var(--petrol-soft)">
+      <span class="cat-index mono">02</span>
+      <span class="cat-name">Example 2</span>
+      <p class="cat-desc">Example text describing this section.</p>
+      <span class="cat-go mono">Coming soon</span>
+    </div></li>
+
+    <li><div class="cat soon" style="--tint:var(--pink)">
+      <span class="cat-index mono">03</span>
+      <span class="cat-name">Example 3</span>
+      <p class="cat-desc">Example text describing this section.</p>
+      <span class="cat-go mono">Coming soon</span>
+    </div></li>
+
+    <li><div class="cat soon" style="--tint:var(--blue-soft)">
+      <span class="cat-index mono">04</span>
+      <span class="cat-name">Example 4</span>
+      <p class="cat-desc">Example text describing this section.</p>
+      <span class="cat-go mono">Coming soon</span>
+    </div></li>
+
+  </ul>
+
+  <footer class="foot">
+    <span class="mono">Example footer left</span>
+    <span class="mono">Example footer right</span>
+  </footer>
+
+</main>
+
+</body>
+</html>
